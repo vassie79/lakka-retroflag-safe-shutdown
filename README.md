@@ -17,7 +17,7 @@ Works on NESPi and SNESPi cases.
    ssh root@YOUR_LAKKA_IP_ADDRESS
    password: root (if unchanged)
    ```
-1. `wget -O - "https://github.com/halsafar/lakka-retroflag-safe-shutdown/raw/master/install.sh" | bash`
+1. `wget -O - "https://github.com/vassie79/lakka-retroflag-safe-shutdown/raw/master/install.sh" | bash`
 
 # Credits
 This is pretty much a cleaned up version of:
