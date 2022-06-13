@@ -2,8 +2,8 @@
 
 # Script Config
 TIMEZONE_FILE="/storage/.cache/timezone"
-DEFAULT_TIMEZONE="America/Regina"
-MASTER_ARCHIVE_URL="https://github.com/halsafar/lakka-retroflag-safe-shutdown/archive/master.zip"
+DEFAULT_TIMEZONE="Europe/London"
+MASTER_ARCHIVE_URL="https://github.com/vassie79/lakka-retroflag-safe-shutdown/archive/master.zip"
 MASTER_ARCHIVE_FILE="lakka-retroflag-safe-shutdown-master.zip"
 AUTOSTART_SCRIPT="/storage/.config/autostart.sh"
 TMP_DIR="/storage/.tmp"
@@ -26,7 +26,7 @@ wget -O "${MASTER_ARCHIVE_FILE}" "${MASTER_ARCHIVE_URL}"
 
 # Install scripts
 unzip -o "${MASTER_ARCHIVE_FILE}"
-cd lakka-retroflag-safe-shutdown/
+cd lakka-retroflag-safe-shutdown*/
 mkdir -p /storage/scripts
 cp -R scripts/* /storage/scripts/
 
