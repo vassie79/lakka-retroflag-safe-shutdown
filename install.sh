@@ -3,7 +3,7 @@
 # Script Config
 TIMEZONE_FILE="/storage/.cache/timezone"
 DEFAULT_TIMEZONE="Europe/London"
-MASTER_ARCHIVE_URL="https://github.com/halsafar/lakka-retroflag-safe-shutdown/archive/master.zip"
+MASTER_ARCHIVE_URL="https://github.com/vassie79/lakka-retroflag-safe-shutdown/archive/master.zip"
 MASTER_ARCHIVE_FILE="lakka-retroflag-safe-shutdown-master.zip"
 AUTOSTART_SCRIPT="/storage/.config/autostart.sh"
 TMP_DIR="/storage/.tmp"
